@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="Model Suite" tests="10" failures="0" errors="0" time="16">
+      <testcase name="Model sqlSupplier Check start and close Total MasterDbConnections" classname="Model Suite" time="7.539e-06"></testcase>
+      <testcase name="Model sqlSupplier Check start and close Total ReadDbConnections" classname="Model Suite" time="2.316e-06"></testcase>
+      <testcase name="Model sqlSupplier Check start and close Total SearchDbConnections" classname="Model Suite" time="1.539e-06"></testcase>
+      <testcase name="Model server Check start and close Should be successful" classname="Model Suite" time="6.000586209"></testcase>
+      <testcase name="Model utils Check Error Should be successful" classname="Model Suite" time="9.308e-06"></testcase>
+      <testcase name="Model utils Check Error Should be successful" classname="Model Suite" time="4.109e-06"></testcase>
+      <testcase name="Model utils Check NewInternalServerError Should be successful" classname="Model Suite" time="7.746e-06"></testcase>
+      <testcase name="Model utils Check FindFile Should be successful" classname="Model Suite" time="0.000408335"></testcase>
+      <testcase name="Model utils Check GetFile Should be successful" classname="Model Suite" time="0.00026144"></testcase>
+      <testcase name="Model config Check config default Should be successful" classname="Model Suite" time="1.0405e-05"></testcase>
+  </testsuite>

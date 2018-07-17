@@ -1,0 +1,46 @@
+{"level":"info","ts":"2018-07-17T10:33:33.636-0700","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T10:33:33.636-0700","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(critic-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T10:33:33.636-0700","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"info","ts":"2018-07-17T10:33:37.114-0700","caller":"model/server.go:50","msg":"shutdown server successfully"}
+{"level":"info","ts":"2018-07-17T17:34:59.436Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:34:59.453Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(critic-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T17:34:59.453Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"error","ts":"2018-07-17T17:35:09.454Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"error","ts":"2018-07-17T17:35:19.455Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"error","ts":"2018-07-17T17:35:29.456Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"error","ts":"2018-07-17T17:35:39.457Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"error","ts":"2018-07-17T17:35:49.457Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"info","ts":"2018-07-17T17:36:04.933Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:36:04.933Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(critic-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T17:36:04.940Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = Error 1045: Access denied for user 'luckgo'@'172.19.0.3' (using password: YES)"}
+{"level":"error","ts":"2018-07-17T17:36:14.943Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = Error 1045: Access denied for user 'luckgo'@'172.19.0.3' (using password: YES)"}
+{"level":"info","ts":"2018-07-17T17:37:36.720Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:37:36.720Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(luckgo-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T17:37:37.154Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"error","ts":"2018-07-17T17:37:53.553Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"info","ts":"2018-07-17T17:38:43.616Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:38:43.617Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(luckgo-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T17:38:47.689Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"error","ts":"2018-07-17T17:38:57.741Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"error","ts":"2018-07-17T17:39:17.802Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"info","ts":"2018-07-17T17:39:40.929Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:39:40.929Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(luckgo-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T17:39:40.995Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"error","ts":"2018-07-17T17:39:53.030Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"error","ts":"2018-07-17T17:40:03.074Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"error","ts":"2018-07-17T17:40:15.118Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp: lookup luckgo-mysql on 127.0.0.11:53: no such host"}
+{"level":"info","ts":"2018-07-17T17:41:00.034Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:41:00.048Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(luckgo-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"error","ts":"2018-07-17T17:41:00.068Z","caller":"model/sqlSupplier.go:89","msg":"Failed to Open DB retrying  in 10 seconds err = dial tcp 172.19.0.2:3306: connect: connection refused"}
+{"level":"info","ts":"2018-07-17T17:41:10.073Z","caller":"model/sqlSupplier.go:80","msg":"open database successfully"}
+{"level":"info","ts":"2018-07-17T17:41:10.073Z","caller":"model/sqlSupplier.go:96","msg":"Pinging SQL master database"}
+{"level":"info","ts":"2018-07-17T17:41:10.073Z","caller":"model/server.go:22","msg":"new server"}
+{"level":"info","ts":"2018-07-17T17:41:10.073Z","caller":"model/sqlSupplier.go:73","msg":"driver:master"}
+{"level":"info","ts":"2018-07-17T17:41:10.073Z","caller":"model/sqlSupplier.go:74","msg":"open database:luckgo:123456@tcp(luckgo-mysql:3306)/luckgo_test?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s"}
+{"level":"info","ts":"2018-07-17T17:41:10.075Z","caller":"model/sqlSupplier.go:80","msg":"open database successfully"}
+{"level":"info","ts":"2018-07-17T17:41:10.075Z","caller":"model/sqlSupplier.go:96","msg":"Pinging SQL master database"}
+{"level":"info","ts":"2018-07-17T17:41:10.075Z","caller":"model/server.go:28","msg":"server start"}
+{"level":"info","ts":"2018-07-17T17:41:10.075Z","caller":"model/server.go:35","msg":"Start Listening and serving HTTP on 0.0.0.0:8080"}
+{"level":"info","ts":"2018-07-17T17:41:10.075Z","caller":"model/server.go:36","msg":"Current version is 1.0 (/)"}
+{"level":"info","ts":"2018-07-17T17:41:16.075Z","caller":"model/sqlSupplier.go:171","msg":"Closing SqlStore"}
+{"level":"info","ts":"2018-07-17T17:41:16.075Z","caller":"model/server.go:50","msg":"shutdown server successfully"}
