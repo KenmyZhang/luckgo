@@ -124,7 +124,7 @@ make test包括下面三个步骤
   mysql>  create database luckgo;
 
 
-* 允许ssouser用户的访问权限
+* 允许luckgo用户的访问权限
 
   mysql> grant all privileges on luckgo.* to 'luckgo'@'%';
 
